@@ -14,4 +14,6 @@
 (ok (equalp (sha1 *string*) *sha1*))
 (ok (equalp (sha1 (make-pathname :defaults (or *compile-file-pathname* *load-pathname*) :name "data0" :type "txt")) *sha1*))
 
+
+
 (finalize)
